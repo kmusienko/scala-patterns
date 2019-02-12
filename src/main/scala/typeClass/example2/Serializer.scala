@@ -4,7 +4,7 @@ case class Person(name: String, age: Int)
 
 case class Restaurant(name: String, brunch: Boolean)
 
-// In this example we use implicits to transform out case class object to a Serializer object
+// In this example we use implicits to transform our case class object to a Serializer object
 trait Serializer1 {
 
   def serialize: String
